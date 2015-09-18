@@ -28,6 +28,7 @@ html,
 body {
   background-image: url("Chicago-SKyline-Night.jpg");
   background-size: cover;
+  height: 100%;
 }
 body {
   color: #fff;
