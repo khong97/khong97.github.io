@@ -1,0 +1,90 @@
+body {
+    border-top: 3px solid #E43333;
+    margin: 0;
+    padding: 0;
+    background-color: #F2F2EB;
+}
+
+h1 {
+    font-family: -apple-system, "Roboto", Helvetica, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-family: -apple-system, "Roboto", Helvetica, sans-serif;
+    text-align: center;
+}
+
+h4 {
+    font-family: -apple-system, "Roboto", Helvetica, sans-serif;
+    text-align: center;
+}
+
+p {
+    font-family: -apple-system, "Roboto", Helvetica, sans-serif;
+    text-align: center;
+    padding: 5px;
+}
+
+hr {
+    margin: -10px 0 0 0;
+}
+
+#social {
+    margin: auto;
+    margin-top: 25px;
+    width: 50%;
+    text-align:center;
+}
+
+.container {
+    margin: auto;
+    margin-top: 25px;
+    width: 50%;
+    text-align:center;
+}
+
+#icons {
+    display:inline-block;
+    margin-top: -5px;
+}
+
+#projects {
+    text-align: center;
+}
+
+.technologies {
+    font-size: 10px;
+}
+
+hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.image-container {
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+.image-container .after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    color: #FFF;
+    border-radius: 10px;
+}
+
+.image-container:hover .after {
+    display: block;
+    background: rgba(0, 0, 0, .6);
+}
