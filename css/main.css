@@ -40,7 +40,7 @@ hr {
 }
 
 i {
-    color: rgba(224, 169, 124, .75);
+    color: rgba(255, 45, 45, .75);
     font-size: 25px;
     transition: linear 0.2s;
     -moz-transition: linear 0.2s;
@@ -50,7 +50,7 @@ i {
 }
 
 i:hover {
-    color: rgba(224, 169, 124, 1);
+    color: rgba(255, 45, 45, 1);
     font-size: 1.1em;
 }
 
@@ -59,13 +59,13 @@ i:hover {
   -moz-transition: linear 0.2s;
   -webkit-transition: linear 0.2s;
   -ms-transition: linear 0.2s;
-  color: rgba(224, 169, 124, .75);
+  color: rgba(255, 45, 45, .75);
   text-decoration: none;
   cursor: pointer;
 }
 
 .footer-2:hover {
-  color: rgba(224, 169, 124, 1);
+  color: rgba(255, 45, 45, 1);
   text-decoration: none;
   font-size: 1.1em
 }
@@ -174,9 +174,10 @@ img {
 }
 
 .image-container:hover .after h4 {
-    color: rgba(224, 169, 124, .75);
+    color: rgba(255, 45, 45, 1);
 }
 
 .image-container:hover .after h4:hover {
-    color: rgba(224, 169, 124, 1);
+    color: rgba(255, 15, 15, 1);
+    cursor: pointer;
 }
