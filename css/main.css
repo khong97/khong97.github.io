@@ -1,21 +1,22 @@
 body {
-    border-top: 10px solid #07889b;
+    border-top: 5px solid #112259;
     margin: 0;
     padding: 0;
-    background-color: #F1F1EF;
+    background-color: #FAFAFA;
 }
 
 h1 {
     font-family: -apple-system, "Open Sans", Helvetica, sans-serif;
     text-align: center;
-    color: #66b9bf;
+    color: #112259;
     font-size: 3em;
 }
 
 h2 {
     font-family: -apple-system, "Open Sans", Helvetica, sans-serif;
     text-align: center;
-    color: #66b9bf;
+    color: #112259;
+    margin-bottom: -10px;
 }
 
 h4 {
@@ -28,6 +29,10 @@ p {
     font-family: -apple-system, "Open Sans", Helvetica, sans-serif;
     text-align: center;
     padding: 0px;
+    transition: linear 0.2s;
+    -moz-transition: linear 0.2s;
+    -webkit-transition: linear 0.2s;
+    -ms-transition: linear 0.2s;
 }
 
 hr {
@@ -37,6 +42,10 @@ hr {
 i {
     color: rgba(224, 169, 124, .75);
     font-size: 25px;
+    transition: linear 0.2s;
+    -moz-transition: linear 0.2s;
+    -webkit-transition: linear 0.2s;
+    -ms-transition: linear 0.2s;
 }
 
 i:hover {
@@ -82,6 +91,7 @@ hr {
 
 img {
     border-radius: 10px;
+    margin-top: 25px
 }
 
 .image-container {
@@ -92,17 +102,29 @@ img {
 }
 
 .image-container .after {
+    margin-top: 25px;
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    display: none;
     color: #FFF;
+    background: rgba(224, 169, 124, .75);
     border-radius: 10px;
+    transition: linear 0.2s;
+    -moz-transition: linear 0.2s;
+    -webkit-transition: linear 0.2s;
+    -ms-transition: linear 0.2s;
 }
 
 .image-container:hover .after {
     display: block;
-    background: rgba(224, 169, 124, 1);;
+    background: rgba(224, 169, 124, .90);
+}
+
+.image-container .after p {
+    display: none;
+}
+.image-container:hover .after p {
+    display: block;
 }
