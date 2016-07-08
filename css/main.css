@@ -79,6 +79,16 @@ i:hover {
     text-align: center;
 }
 
+#footer {
+    margin: 20px auto;
+    text-align: center;
+    width:25%;
+}
+
+#right {
+    display:none;
+}
+
 .technologies {
     font-size: 10px;
     margin-top:10px;
@@ -86,7 +96,7 @@ i:hover {
 
 hr {
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 
 img {
@@ -127,4 +137,8 @@ img {
 }
 .image-container:hover .after p {
     display: block;
+}
+
+#footrule {
+    margin-top:40px;
 }
