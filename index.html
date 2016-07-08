@@ -16,13 +16,14 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.1.6/zepto.min.js"></script>
     <script>
+        console.log("script")
         $.ajax({
             url: https://api.github.com/users/kzyh/repos\?type\=all\&sort\=pushed\&direction\=desc,
             cache: true,
             success: function(html){
                var project = html[0]["name"];
                $("#project").append(project);
-               $("#right").show()
+               $("#right").show();
             }
         });
     </script>
