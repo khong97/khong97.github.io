@@ -13,16 +13,19 @@
     <script src="https://use.fontawesome.com/a3983ab926.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.1.6/zepto.min.js"></script>
     <script>
-        console.log("script")
+        console.log("script");
         $.ajax({
-            url: https://api.github.com/users/kzyh/repos\?type\=all\&sort\=pushed\&direction\=desc,
+            url: "https://api.github.com/users/kzyh/repos\?type\=all\&sort\=pushed\&direction\=desc",
             cache: true,
             success: function(html){
                var project = html[0]["name"];
+               var link = html[0]["html_url"]
                $("#project").append(project);
+               $("#projectlink").attr("href", link);
                $("#right").show();
             }
         });
@@ -69,6 +72,7 @@
             <div class="after">
                 <h4> Personal Website </h4>
                 <p class="project-description">
+                    Bacon ipsum dolor amet shankle biltong cow venison alcatra beef prosciutto drumstick. Salami turducken short ribs jerky.
                 </p>
             </div>
         </div>
@@ -83,11 +87,12 @@
         </div>-->
     </div>
 
-    <div id="footrule"><hr></div>
-
     <div class="container" id="footer">
-        <span id="left">kevin hong</span>
-        <span id="right">is currently working on <span id="project"></span></span>
+        <hr>
+        <br>
+        <span id="left">kevin hong <br> <a class="footer-2" href="#">2016</a></span>
+        <span id="center"><a class="footer-2" href="mailto:hi@kevinhong.io" target="_self">contact me!</a></span>
+        <span id="right">currently working on: <br><a class="footer-2" id="projectlink" target="_blank"><span id="project"></span></a></span>
     </div>
 
 </body>

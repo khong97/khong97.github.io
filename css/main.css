@@ -6,21 +6,21 @@ body {
 }
 
 h1 {
-    font-family: -apple-system, "Open Sans", Helvetica, sans-serif;
+    font-family: -apple-system,"Space Mono", monospace, "Open Sans", Helvetica, sans-serif;
     text-align: center;
     color: #112259;
     font-size: 3em;
 }
 
 h2 {
-    font-family: -apple-system, "Open Sans", Helvetica, sans-serif;
+    font-family: -apple-system, "Space Mono", monospace, "Open Sans", Helvetica, sans-serif;
     text-align: center;
     color: #112259;
     margin-bottom: -10px;
 }
 
 h4 {
-    font-family: -apple-system, "Open Sans", Helvetica, sans-serif;
+    font-family: -apple-system, "Space Mono", monospace, "Open Sans", Helvetica, sans-serif;
     text-align: center;
     margin-bottom: -10px;
 }
@@ -28,7 +28,7 @@ h4 {
 p {
     font-family: -apple-system, "Open Sans", Helvetica, sans-serif;
     text-align: center;
-    padding: 0px;
+    padding: 4px;
     transition: linear 0.2s;
     -moz-transition: linear 0.2s;
     -webkit-transition: linear 0.2s;
@@ -46,11 +46,28 @@ i {
     -moz-transition: linear 0.2s;
     -webkit-transition: linear 0.2s;
     -ms-transition: linear 0.2s;
+    cursor: pointer;
 }
 
 i:hover {
     color: rgba(224, 169, 124, 1);
     font-size: 1.1em;
+}
+
+.footer-2 {
+  transition: linear 0.2s;
+  -moz-transition: linear 0.2s;
+  -webkit-transition: linear 0.2s;
+  -ms-transition: linear 0.2s;
+  color: rgba(224, 169, 124, .75);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.footer-2:hover {
+  color: rgba(224, 169, 124, 1);
+  text-decoration: none;
+  font-size: 1.1em
 }
 
 
@@ -72,7 +89,7 @@ i:hover {
     display:inline-block;
     margin-top: -30px;
     font-size: 30px;
-    color: #07889b;
+    color: #112259;
 }
 
 #projects {
@@ -80,13 +97,29 @@ i:hover {
 }
 
 #footer {
-    margin: 20px auto;
     text-align: center;
-    width:25%;
+    width:50%;
+    position: relative;
+    margin-top: 100px ;
+    margin-bottom: 50px;
+    font-family: -apple-system,"Space Mono", monospace, "Open Sans", Helvetica, sans-serif;
 }
 
 #right {
+    float: right;
     display:none;
+    width: 33%;
+    color: #112259
+}
+
+#center {
+    width: 33%;
+}
+
+#left {
+    float: left;
+    width: 33%;
+    color: #112259
 }
 
 .technologies {
@@ -119,7 +152,8 @@ img {
     width: 100%;
     height: 100%;
     color: #FFF;
-    background: rgba(224, 169, 124, .75);
+    font-size: .95em;
+    background: rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     transition: linear 0.2s;
     -moz-transition: linear 0.2s;
@@ -129,7 +163,7 @@ img {
 
 .image-container:hover .after {
     display: block;
-    background: rgba(224, 169, 124, .90);
+    background: rgba(0, 0, 0, 0.7);
 }
 
 .image-container .after p {
@@ -139,6 +173,10 @@ img {
     display: block;
 }
 
-#footrule {
-    margin-top:40px;
+.image-container:hover .after h4 {
+    color: rgba(224, 169, 124, .75);
+}
+
+.image-container:hover .after h4:hover {
+    color: rgba(224, 169, 124, 1);
 }
