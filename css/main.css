@@ -11,11 +11,17 @@ h1 {
     color: #112259;
 }
 
+
 h2 {
     font-family: -apple-system, "Space Mono", monospace, "Open Sans", Helvetica, sans-serif;
     text-align: center;
     color: #112259;
     margin-bottom: -10px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
 h4 {
@@ -72,7 +78,7 @@ i:hover {
 
 #social {
     margin: auto;
-    margin-top: 25px;
+    margin-top: 15px;
     text-align:center;
 }
 
@@ -85,7 +91,7 @@ i:hover {
 
 #icons {
     display:inline-block;
-    margin-top: -30px;
+    margin-top: -50px;
     font-size: 30px;
     color: #112259;
 }
