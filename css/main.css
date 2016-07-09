@@ -191,68 +191,28 @@ img {
     .container {
         width: 90%;
     }
-    .image-container {
-        width: 100px;
-        height: 100px;
-    }
-    h4 {
-        font-size: 25%;
-    }
-
-    .image-container .after p {
-        font-size: 25%;
-    }
+    
 }
 
 @media (min-width: 350px) and (max-width: 500px) {
     .container {
         width: 85%;
     }
-    .image-container {
-        width: 125px;
-        height: 125px;
-    }
-    h4 {
-        font-size: 37.5%;
-    }
 
-    .image-container .after p {
-        font-size: 37.5%;
-    }
 }
 
 @media (min-width: 501px) and (max-width: 800px) {
     .container {
         width: 80%;
     }
-    .image-container {
-        width: 150px;
-        height: 150px;
-    }
-    h4 {
-        font-size: 25%;
-    }
 
-    .image-container .after p {
-        font-size: 25%;
-    }
 }
 
 @media (min-width: 801px) and (max-width: 1000px) {
     .container {
         width: 70%;
     }
-    .image-container {
-        width: 175px;
-        height: 175px;
-    }
-    h4 {
-        font-size: 62.5%;
-    }
 
-    .image-container .after p {
-        font-size: 62.5%;
-    }
 }
 
 @media (min-width: 1001px) and (max-width: 1200px) {
@@ -260,16 +220,5 @@ img {
         width: 60%;
     }
 
-    .image-container {
-        width: 200px;
-        height: 200px;
-    }
 
-    h4 {
-        font-size: 65%;
-    }
-
-    .image-container .after p {
-        font-size: 65%;
-    }
 }
