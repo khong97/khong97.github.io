@@ -40,7 +40,7 @@ hr {
 }
 
 i {
-    color: rgba(255, 45, 45, .75);
+    color: rgba(130, 183, 220, .75);
     font-size: 25px;
     transition: linear 0.2s;
     -moz-transition: linear 0.2s;
@@ -50,7 +50,7 @@ i {
 }
 
 i:hover {
-    color: rgba(255, 45, 45, 1);
+    color: rgba(130, 183, 220, 1);
     font-size: 1.1em;
 }
 
@@ -59,13 +59,13 @@ i:hover {
   -moz-transition: linear 0.2s;
   -webkit-transition: linear 0.2s;
   -ms-transition: linear 0.2s;
-  color: rgba(255, 45, 45, .75);
+  color: rgba(130, 183, 220, .75);
   text-decoration: none;
   cursor: pointer;
 }
 
 .footer-2:hover {
-  color: rgba(255, 45, 45, 1);
+  color: rgba(130, 183, 220, 1);
   text-decoration: none;
   font-size: 1.1em
 }
@@ -113,6 +113,7 @@ i:hover {
 }
 
 #center {
+    color: #112259;
     width: 33%;
 }
 
@@ -163,7 +164,7 @@ img {
 
 .image-container:hover .after {
     display: block;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.5);
 }
 
 .image-container .after p {
@@ -174,10 +175,38 @@ img {
 }
 
 .image-container:hover .after h4 {
-    color: rgba(255, 45, 45, 1);
+    color: rgba(170, 198, 227, 1);
+    transition: linear 0.2s;
+    -moz-transition: linear 0.2s;
+    -webkit-transition: linear 0.2s;
+    -ms-transition: linear 0.2s;
 }
 
 .image-container:hover .after h4:hover {
-    color: rgba(255, 15, 15, 1);
+    color: rgba(145, 181, 219, 1);
     cursor: pointer;
+}
+
+@media (min-width: 350px) and (max-width: 500px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media (min-width: 501px) and (max-width: 800) {
+    .container {
+        width: 80%;
+    }
+}
+
+@media (min-width: 801px) and (max-width: 1000px) {
+    .container {
+        width: 70%;
+    }
+}
+
+@media (min-width: 1001px) and (max-width: 1200px) {
+    .container {
+        width: 60%;
+    }
 }
