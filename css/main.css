@@ -197,7 +197,7 @@ img {
         font-size: 25%;
     }
 
-    p {
+    .image-container .after p {
         font-size: 25%;
     }
 }
@@ -214,7 +214,7 @@ img {
         font-size: 37.5%;
     }
 
-    p {
+    .image-container .after p {
         font-size: 37.5%;
     }
 }
@@ -231,7 +231,7 @@ img {
         font-size: 25%;
     }
 
-    p {
+    .image-container .after p {
         font-size: 25%;
     }
 }
@@ -248,7 +248,7 @@ img {
         font-size: 62.5%;
     }
 
-    p {
+    .image-container .after p {
         font-size: 62.5%;
     }
 }
@@ -267,7 +267,7 @@ img {
         font-size: 65%;
     }
 
-    p {
+    .image-container .after p {
         font-size: 65%;
     }
 }
