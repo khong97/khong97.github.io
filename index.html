@@ -2,7 +2,8 @@
 
 <head>
     <title>Kevin Hong</title>
-    <meta name="author" content="Kevin Hong" <meta name="description" content="Kevin Hong, sophomore in CS@UIUC">
+    <meta name="author" content="Kevin Hong">
+     <meta name="description" content="Kevin Hong, sophomore in CS@UIUC">
     <meta name="keywords" content="Kevin, Hong, Kevin Hong, CS, UIUC, Illinois">
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,29 +24,34 @@
             url: "https://api.github.com/users/kzyh/repos\?type\=all\&sort\=pushed\&direction\=desc",
             cache: true,
             success: function(html){
-               var project = html[0]["name"];
-               var link = html[0]["html_url"]
-               $("#project").append(project);
-               $("#projectlink").attr("href", link);
-               $("#right").show();
+                var project = html[0]["name"];
+                var link = html[0]["html_url"]
+                $("#project").append(project);
+                $("#projectlink").attr("href", link);
+                $("#right").show();
+            },
+            error: function() {
+                $("#project").append("something hopefully productive.");
+                $("#projectlink").attr("href", "https://niceme.me");
+                $("#right").show();
             }
         });
     </script>
     <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-      ga('create', 'UA-80541448-1', 'auto');
-      ga('send', 'pageview');
-
+          ga('create', 'UA-80541448-1', 'auto');
+          ga('send', 'pageview');
     </script>
 </head>
 
 <body>
 
     <div class="container" id="social">
+        <a href='static/expressvpn_ios.mobileconfig' download> Download </a>
         <a href="http://kevinhong.io" target="_self"><h1 style="font-size:50px; font-weight:200"> Kevin Hong </h1></a>
         <br>
         <span id="icons">
@@ -60,8 +66,8 @@
 
     <div class="container" id="about">
         <h2> about me </h2>
-        <p><!-- Hi! I'm a sophomore studying CS @ UIUC.
-            <!--<br>
+        <p><!-- Hi there! I'm a sophomore studying CS @ UIUC.
+            <br>
             I love learning new things and talking to new people. Feel free to email me!
             <br> My resume can be found here: <a href="static/kevin_hong_resume.pdf"><i class="fa fa-file-text-o"></i></a>-->
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur accumsan sagittis ex, vel scelerisque dolor venenatis sit amet. Donec non convallis nulla, a varius massa. Nam aliquet vehicula feugiat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur aliquet mauris orci, sed feugiat ipsum euismod non. Mauris iaculis condimentum mattis. Aenean a vehicula elit. Suspendisse libero erat, molestie vitae tincidunt in, accumsan vel est. Aliquam at ultricies urna. Fusce eu lectus hendrerit enim cursus iaculis. Aliquam erat volutpat. Morbi eleifend tincidunt tellus, accumsan ornare purus blandit quis. Quisque molestie augue eros, sed sollicitudin turpis ullamcorper rhoncus.
@@ -70,15 +76,7 @@
 
     <div class="container" id="projects">
         <h2> projects </h2>
-        <div class="image-container" id="project-1">
-            <div class="after">
-                <a href="https://github.com/xaso/illiniguide" target="_blank"><h4> IlliniGuide </h4></a>
-                <p class="project-description">
-                    An open source university companion. Designed to help choose classes, predict performance, and make life easier. <br><br> <span class="technologies">Python, Flask, and PostgreSQL.</span>
-                </p>
-            </div>
-        </div>
-        <div class="image-container" id="project-2">
+        <div class="image-container" id="project-10">
             <div class="after">
                 <a href="https://github.com/kzyh/kzyh.github.io" target="_blank"><h4> Personal Website </h4></a>
                 <p class="project-description">
@@ -86,20 +84,28 @@
                 </p>
             </div>
         </div>
-        <!--<div class="image-container" id="project-3">
+        <div class="image-container" id="project-2">
+            <div class="after">
+                <a href="https://github.com/xaso/illiniguide" target="_blank"><h4> IlliniGuide </h4></a>
+                <p class="project-description">
+                    An open source university companion. Designed to help choose classes, predict performance, and make life easier. <br><br> <span class="technologies">Python, Flask, and PostgreSQL.</span>
+                </p>
+            </div>
+        </div>
+        <div class="image-container" id="project-3">
             <div class="after">
                 <a href="https://github.com/xaso/UIUC-API" target="_blank"><h4> UIUC Open Data API </h4></a>
                 <p class="project-description">
-                    API that provides data for various services on campus such as dining, laundry, weather, etc.
+                    API that provides data for various services on the UIUC campus such as dining, laundry, weather, etc.
                 </p>
             </div>
-        </div>-->
+        </div>
     </div>
 
     <div class="container" id="footer">
         <hr>
         <br>
-        <span id="left">kevin hong <br> <a class="footer-2" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">2016</a></span>
+        <span id="left">Kevin Hong <br> <span id="mobile"> <a class="footer-2" href="mailto:hi@kevinhong.io" target="_self">contact me!</a></span> <a class="footer-2" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">2016</a></span>
         <span id="center"><a class="footer-2" href="mailto:hi@kevinhong.io" target="_self">contact me!</a></span>
         <span id="right">currently working on: <br><a class="footer-2" id="projectlink" target="_blank"><span id="project"></span></a></span>
     </div>
