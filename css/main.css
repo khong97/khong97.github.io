@@ -44,7 +44,7 @@ hr {
     margin: -10px 0 0 0;
 }
 
-i {
+#icon {
     color: rgba(130, 183, 220, .75);
     transition: linear 0.2s;
     -moz-transition: linear 0.2s;
@@ -53,9 +53,9 @@ i {
     cursor: pointer;
 }
 
-i:hover {
-    color: rgba(130, 183, 220, 1);
-    font-size: 1.0em;
+#icon:hover {
+    color: rgba(140, 183, 220, 1);
+    font-size: 1.1em;
 }
 
 .footer-2 {
@@ -75,7 +75,7 @@ i:hover {
 }
 
 
-#social {
+#title {
     margin: auto;
     margin-top: 15px;
     text-align:center;
@@ -89,7 +89,7 @@ i:hover {
 }
 
 #icons {
-    display:inline-block;
+
     margin-top: -60px;
     font-size: 30px;
     color: #112259;
@@ -177,7 +177,15 @@ img {
   background: url('project-3.png') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#project-4 {
+  background: url('project-4.png') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
 }
 
