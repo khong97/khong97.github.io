@@ -46,7 +46,6 @@ hr {
 
 i {
     color: rgba(130, 183, 220, .75);
-    font-size: 25px;
     transition: linear 0.2s;
     -moz-transition: linear 0.2s;
     -webkit-transition: linear 0.2s;
@@ -56,7 +55,7 @@ i {
 
 i:hover {
     color: rgba(130, 183, 220, 1);
-    font-size: 1.1em;
+    font-size: 1.0em;
 }
 
 .footer-2 {
@@ -72,7 +71,7 @@ i:hover {
 .footer-2:hover {
   color: rgba(130, 183, 220, 1);
   text-decoration: none;
-  font-size: 1.1em
+  font-size: 1.0em
 }
 
 
@@ -91,7 +90,7 @@ i:hover {
 
 #icons {
     display:inline-block;
-    margin-top: -50px;
+    margin-top: -60px;
     font-size: 30px;
     color: #112259;
 }
@@ -131,7 +130,7 @@ i:hover {
 
 .technologies {
     font-size: 10px;
-    margin-top:10px;
+    float: bottom;
 }
 
 hr {
@@ -156,8 +155,32 @@ img {
     margin: 25px 5px 5px 5px;
 
     border-radius: 10px;
-    background-image: url("http://lorempixel.com/200/200");
 }
+
+#project-1 {
+  background: url('project-1.png') no-repeat center center;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+
+#project-2 {
+  background: url('project-2.png') no-repeat center center;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+
+#project-3 {
+  background: url('project-3.png') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover
+  background-size: cover;
+}
+
 
 .image-container .after {
     position: absolute;
@@ -183,7 +206,16 @@ img {
 .image-container .after p {
     display: none;
 }
+
+.image-container .after span{
+    display: none;
+}
+
 .image-container:hover .after p {
+    display: block;
+}
+
+.image-container:hover .after span{
     display: block;
 }
 
