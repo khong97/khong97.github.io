@@ -1,4 +1,4 @@
-body {
+ body {
     border-top: 5px solid #112259;
     margin: 0;
     padding: 0;
@@ -44,7 +44,7 @@ hr {
     margin: -10px 0 0 0;
 }
 
-#icon {
+.icon {
     color: rgba(130, 183, 220, .75);
     transition: linear 0.2s;
     -moz-transition: linear 0.2s;
@@ -53,7 +53,7 @@ hr {
     cursor: pointer;
 }
 
-#icon:hover {
+.icon:hover {
     color: rgba(140, 183, 220, 1);
     font-size: 1.1em;
 }
@@ -157,14 +157,6 @@ img {
     border-radius: 10px;
 }
 
-#project-1 {
-  background: url('project-1.png') no-repeat center center;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain;
-}
-
 #project-2 {
   background: url('project-2.png') no-repeat center center;
   -webkit-background-size: contain;
@@ -181,8 +173,24 @@ img {
   background-size: cover;
 }
 
+#hackillinois {
+  background: url('hackillinois.png') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 #project-4 {
   background: url('project-4.png') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#rmn {
+  background: url('rmn.png') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
