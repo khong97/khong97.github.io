@@ -1,0 +1,49 @@
+I hereby claim:
+
+  * I am an admin of http://kevinhong.io
+  * I am kevinhong (https://keybase.io/kevinhong) on keybase.
+  * I have a public key ASAiZG9f6aYLq7eXdAk_oHfTVhVa7EJKjcObI2dyjWDsbwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01017a4c6a9ecdc378dacf9e4e6e7398ff939405c216f5791ff29ad9f9d15736b3070a",
+      "host": "keybase.io",
+      "kid": "012022646f5fe9a60babb79774093fa077d356155aec424a8dc39b2367728d60ec6f0a",
+      "uid": "2f4b468cc4e85cf2a339cc6061050b19",
+      "username": "kevinhong"
+    },
+    "merkle_root": {
+      "ctime": 1514154977,
+      "hash": "4e3b896c65a2f574469a4933f2d0677ad3a46511efa1827c41cc57bef5913c3e027c3e3b9288c2dbfa5ccdb0806522f2d0f3df3ab57554e5619e0bb193a8684c",
+      "hash_meta": "7a8a89a0d865fe18f152b9767e3c02abc4a9a19eb5ec043b419206d879cc438c",
+      "seqno": 1855557
+    },
+    "service": {
+      "hostname": "kevinhong.io",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.38"
+  },
+  "ctime": 1514154989,
+  "expire_in": 504576000,
+  "prev": "8d6fb76c781203fab4a0c59ec53022ae3dd1dfc3eb458f82cf9b8ad315d1297a",
+  "seqno": 15,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgImRvX+mmC6u3l3QJP6B301YVWuxCSo3DmyNnco1g7G8Kp3BheWxvYWTFA0V7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxN2E0YzZhOWVjZGMzNzhkYWNmOWU0ZTZlNzM5OGZmOTM5NDA1YzIxNmY1NzkxZmYyOWFkOWY5ZDE1NzM2YjMwNzBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwMjI2NDZmNWZlOWE2MGJhYmI3OTc3NDA5M2ZhMDc3ZDM1NjE1NWFlYzQyNGE4ZGMzOWIyMzY3NzI4ZDYwZWM2ZjBhIiwidWlkIjoiMmY0YjQ2OGNjNGU4NWNmMmEzMzljYzYwNjEwNTBiMTkiLCJ1c2VybmFtZSI6ImtldmluaG9uZyJ9LCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTUxNDE1NDk3NywiaGFzaCI6IjRlM2I4OTZjNjVhMmY1NzQ0NjlhNDkzM2YyZDA2NzdhZDNhNDY1MTFlZmExODI3YzQxY2M1N2JlZjU5MTNjM2UwMjdjM2UzYjkyODhjMmRiZmE1Y2NkYjA4MDY1MjJmMmQwZjNkZjNhYjU3NTU0ZTU2MTllMGJiMTkzYTg2ODRjIiwiaGFzaF9tZXRhIjoiN2E4YTg5YTBkODY1ZmUxOGYxNTJiOTc2N2UzYzAyYWJjNGE5YTE5ZWI1ZWMwNDNiNDE5MjA2ZDg3OWNjNDM4YyIsInNlcW5vIjoxODU1NTU3fSwic2VydmljZSI6eyJob3N0bmFtZSI6ImtldmluaG9uZy5pbyIsInByb3RvY29sIjoiaHR0cDoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMzgifSwiY3RpbWUiOjE1MTQxNTQ5ODksImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJwcmV2IjoiOGQ2ZmI3NmM3ODEyMDNmYWI0YTBjNTllYzUzMDIyYWUzZGQxZGZjM2ViNDU4ZjgyY2Y5YjhhZDMxNWQxMjk3YSIsInNlcW5vIjoxNSwidGFnIjoic2lnbmF0dXJlIn2jc2lnxEBGJI4eYdAndNfCN+yGSLnGr5QiOTuihbaqucYTtVZdGTsAEtG4VlTAfEmIeHs9VsvxV99ZQRQ2xk0ASeas3i0AqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgzh7Aa+LC6o0Y48GXHE3FPR0N6IHS+357EexybsBEyZ+jdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/kevinhong
