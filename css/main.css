@@ -196,6 +196,13 @@ img {
   -o-background-size: cover;
   background-size: cover;
 }
+#jl {
+  background: url('jl.png') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
 
 .image-container .after {
